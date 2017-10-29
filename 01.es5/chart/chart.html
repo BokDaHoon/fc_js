@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <section id="chart-section"></section>
+    <script src="src/chart.js"></script>
+    <script>
+        var chart = new BarChart('chart-section', {
+            data: [],
+            options: {
+                width: 500,
+                height: 500
+            }
+        });
+        console.log(chart.canvas);
+        var chart2 = new BarChart('chart-section', {
+            data: []
+        });
+    </script>
+</body>
+</html>

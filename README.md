@@ -1,2 +1,2 @@
-# fc_js
-fastcampus javascript excersie
+# 패스트캠퍼스 자바스크립트 실습자료
+1주차 : ES5
